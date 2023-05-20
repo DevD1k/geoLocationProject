@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Project 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="default-user-div">
+        <h2 class="heading-1">TimeZone API</h2>
+        <h2 class="heading-2">Your Current Time Zone</h2>
+        <div id="show-data-user-default" class="show-data-user-default">
+          <div id="" class="timezone-detail">Name Of Time Zone :</div>
+          <div id="" class="timezone-detail latOrLong">
+            <div id="" class="lat">Lat:</div>
+            <div id="" class="long">Long:</div>
+          </div>
+          <div id="" class="timezone-detail">Offset STD:</div>
+          <div id="" class="timezone-detail">Offset STD Seconds :</div>
+          <div id="" class="timezone-detail">Offset DST :</div>
+          <div id="" class="timezone-detail">Offset DST Seconds:</div>
+          <div id="" class="timezone-detail">Country:</div>
+          <div id="" class="timezone-detail">Postcode:</div>
+          <div id="" class="timezone-detail">City:</div>
+        </div>
+      </div>
+      <div class="search-main-div">
+        <h2>Enter Address</h2>
+        <div class="input-div">
+          <form action="#">
+            <div class="input-div">
+              <input
+                type="text"
+                name=""
+                id="address"
+                placeholder="Address"
+                class="inputBox"
+              />
+            </div>
+            <div class="submit-div" type="submit" id="submitBtn">Submit</div>
+          </form>
+        </div>
+        <div class="search-user-div" id="search-user-div">
+          <h2 id="your_result" class="your_result">Your result</h2>
+          <div id="show-error"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
